@@ -43,4 +43,4 @@ jobs:
         export_default_credentials: true
 
     - name: Deploy to Google App Engine
-      run: gcloud app deploy
+      run: gcloud -v
